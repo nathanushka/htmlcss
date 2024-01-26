@@ -1,5 +1,4 @@
-  
- 
+
   @font-face { 
     font-family: SeafordBold; 
     src: url(./font/SeafordBold.ttf); 
@@ -13,14 +12,15 @@
     }
 
  h1 {
-    color: navy;
+    color: palevioletred;
     font-family: 'SeafordBold';
-    margin-left: 0px;
+    text-align: center;
+    display: flex;
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: palevioletred;
 }
 
   p.myP{
@@ -34,7 +34,7 @@
     color: black;
   }
 
-  p.myP:hover{background-color: #ddd;}
+  p.myP:hover{background-color: beige;}
 
 
  body {
@@ -65,7 +65,7 @@ ol li {
 }  
   ol li::before { 
     content:counter(num) "."; 
-    color: blue;     
+    color: palevioletred;     
 } 
 
 
@@ -88,14 +88,13 @@ ol li {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: grey;
+    background-color: palevioletred;
     color: white;
   }
 
   label { display: inline-block; width: 70px; text-align: right; }
- 
+  
  img.myImage{
   height: 210px;
   width: 200px;
-  border-radius: 50%;
  }
